@@ -1,12 +1,12 @@
 {
   "name": "hexo-front-matter-editor",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "[![Build Status](https://www.travis-ci.org/kamilic/hexo-front-matter-editor.svg?branch=master)](https://www.travis-ci.org/kamilic/hexo-front-matter-editor)\r [![codecov](https://codecov.io/gh/kamilic/hexo-front-matter-editor/branch/master/graph/badge.svg)](https://codecov.io/gh/kamilic/hexo-front-matter-editor)",
   "main": "index.js",
   "scripts": {
     "test": "istanbul cover ./node_modules/mocha/bin/_mocha"
   },
-  "author": "",
+  "author": "kamilic",
   "license": "MIT",
   "dependencies": {
     "fs-extra": "^6.0.1",
@@ -17,5 +17,21 @@
     "chai": "^4.1.2",
     "istanbul": "^0.4.5",
     "mocha": "^5.2.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamilic/hexo-front-matter-editor.git"
+  },
+  "keywords": [
+    "hexo-front-matter",
+    "hexo-front-matter-editor",
+    "modifier"
+  ],
+  "bugs": {
+    "url": "https://github.com/kamilic/hexo-front-matter-editor/issues"
+  },
+  "homepage": "https://github.com/kamilic/hexo-front-matter-editor#readme"
 }
