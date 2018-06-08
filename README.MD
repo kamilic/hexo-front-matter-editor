@@ -1,10 +1,11 @@
 [![Build Status](https://www.travis-ci.org/kamilic/hexo-front-matter-editor.svg?branch=master)](https://www.travis-ci.org/kamilic/hexo-front-matter-editor)
+[![codecov](https://codecov.io/gh/kamilic/hexo-front-matter-editor/branch/master/graph/badge.svg)](https://codecov.io/gh/kamilic/hexo-front-matter-editor)
 
 # hexo-front-matter-editor
 
 A simple library to read / write / create markdown files of hexo blog posts.
 
-## APIs
+### APIs
 
 #### Editor.read(```String``` from)
 Read your hexo markdown file and parse it to an FrontMatterData object.
@@ -22,7 +23,7 @@ returns ```FrontMatterData``` result;
 - to / the output markdown file path.
 
 
-## ```FrontMatterData``` APIs
+### ```FrontMatterData``` APIs
 It just a simple key-value pair handler.
 
 #### FrontMatterData.add(```String``` key, ```String``` value)
