@@ -17,7 +17,7 @@ class HexoFrontMatterData {
 			if (key && key in this) {
 				throw Error('Cannot add an existed key.');
 			} else if (key && typeof key === 'string') {
-				this[key] = value;
+				this[key] = value.toString();
 			} else {
 				throw Error('Params Key: Invalid type.');
 			}
@@ -30,7 +30,7 @@ class HexoFrontMatterData {
 		if (key !== _CONTENT_KEY_) {
 			if (key && typeof key === 'string') {
 				if (key in this) {
-					this[key] = value;
+					this[key] = value.toString();
 				} else {
 					this.add(key, value);
 				}
