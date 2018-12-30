@@ -1,3 +1,4 @@
+[![npm version](https://badge.fury.io/js/hexo-front-matter-editor.svg)](https://badge.fury.io/js/hexo-front-matter-editor)
 [![Build Status](https://www.travis-ci.org/kamilic/hexo-front-matter-editor.svg?branch=master)](https://www.travis-ci.org/kamilic/hexo-front-matter-editor)
 [![codecov](https://codecov.io/gh/kamilic/hexo-front-matter-editor/branch/master/graph/badge.svg)](https://codecov.io/gh/kamilic/hexo-front-matter-editor)
 
