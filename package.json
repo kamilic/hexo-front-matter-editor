@@ -1,6 +1,6 @@
 {
   "name": "hexo-front-matter-editor",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "[![Build Status](https://www.travis-ci.org/kamilic/hexo-front-matter-editor.svg?branch=master)](https://www.travis-ci.org/kamilic/hexo-front-matter-editor)\r [![codecov](https://codecov.io/gh/kamilic/hexo-front-matter-editor/branch/master/graph/badge.svg)](https://codecov.io/gh/kamilic/hexo-front-matter-editor)",
   "main": "index.js",
   "scripts": {
